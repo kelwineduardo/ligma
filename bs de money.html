@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conta de luz</title>
+</head>
+<h1>Conta de luz</h1>
+<body>
+    <label for="leitura_anterior">Leitura anterior:</label>
+    <input type="number" id="leitura_anterior" name="leitura_anterior" step="0.01">
+    <br>
+    <label for="leitura_atual">Leitura atual:</label>
+    <input type="number" id="leitura_atual" name="leitura_atual" step="0.01">
+    <br>
+    <label for="consumo">Consumo:</label>
+    <input type="number" id="consumo" name="value" step="0.01" readonly>
+    <button onclick="calcularConsumo()">Calcular Consumo</button>
+    <input type="checkbox" id="pobre" name="baixa renda" checked> 
+    <label for="pobre">Pessoa de baixa renda</label>
+    <script>
+        function calcularConsumo() {
+            let leituraAnterior = parseFloat(document.getElementById('leitura_anterior').value);
+            let leituraAtual = parseFloat(document.getElementById('leitura_atual').value);
+            let consumo = leituraAtual - leituraAnterior;
+            document.getElementById('consumo').value = consumo;
+        }
+    </script>   
+</body>
+</html>
