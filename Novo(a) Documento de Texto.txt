@@ -1,0 +1,122 @@
+'''tarefa 7 tupla=('Domingo','segunda','terça','quarta','quinta','sexta','sabado')
+if tupla[6]=='sabado':print('AAAAAAAAAA')
+else:
+ print('HADO 33 SOKATISUI')
+ /////////////////////////////
+ TAREFA 8
+tupla=(10,20,30,40,50)
+print(f'\n quantia de elementos é:{len(tupla)}\n')
+print(f'\n a soma do maior e menor é:{min(tupla)+max(tupla)}')
+print(f'\n a soma de todos os numeros é:{sum(tupla)}')
+print(f'\n a soma da soma e do menor é:{sum(tupla)+min(tupla)}')
+//////////
+tarefa 9
+trufa=(1,2,3)
+truva=(1,2,3)
+print(f'\n la junsone is las trufas es :{trufa+truva}')
+/////////////////////////////
+tarefa 10
+tupla=('algoritimos','logica')
+tupra=('progamação','python')
+print(f'\n a junsão de mais produtos são{tupla+tupra}')
+tarefa 1
+tupla=()
+print(f'\n essa é uma tupla:{tupla}')
+print(f'\n o negocio is form:type{tupla}')
+//////////////
+tarefa 2
+tupla=('kelwin',20,70.00,'true')
+print(f'\n dededed:{(tupla)}')
+print(f'\n a tud o:{type(tupla)}')
+\\\\\\\\\\\\\\
+tarefa 11
+tupla=('IFRO','Campus','Ariquemes','ADS')
+print(f'\n as tralhas são:{tupla} \n')
+for elementos in tupla:
+    print(elementos)
+\\\\\\\\\    \\\\\\\\\
+tarefa 12
+tupla=('IFRO','Campus','Ariquemes','ADS')
+print(f'\n as tralhas são:{tupla} \n')
+for indice, valor in enumerate(tupla): 
+    print('Indice: ', indice, 'Elemento da tupla: ', valor)
+\\\\\\\\\\\\\\\\\\\\\\\
+13
+tupla=('IFRO','Campus','Ariquemes','ADS')
+print(f'\n Elementos a partir da posição 0 da tupla {tupla[1:]}')
+for elementos in tupla[1:]:
+    print(elementos)
+\\\\\\\
+tarefa 14
+tupla=(0,1,2,3,4,5,6,7,8,9)
+  
+total = len(tupla) 
+contador = 0
+while  contador < total: 
+    print(f'Indice: {contador + 1}, Elemento da tupla: {tupla[contador]}') 
+    contador += 1 
+\\\\\\\
+15
+a,b,c,d=('Calvin blanco Supra sayia dim Foooda',22,'ADS',2026)
+print(f'\n nome: {a}')
+print(type(a)) 
+print(f'\n idade: {b}') 
+print(type(b)) 
+print(f'\n curso: {c}') 
+print(type(c)) 
+print(f'\n Ano: {d}') 
+print(type(d)) 
+ \\\\
+16
+lista=['python','java','C','javascript']
+print(f'\n lista original:{lista}')
+print(type(lista))
+tupla=tuple(lista)
+print(f'\n Tupla a partir a lista={tupla} \n')
+print(type(tupla),'\n')
+\\\\\\\\\\
+17
+tupla=('dedede','meta knight','Kirby')
+del tupla
+print(f'\n los elementos são: {len(tupla)}elementos')
+print(f'\n es la tupla:{tupla}')
+\\\\\\\
+18
+*a,b,c, = [10,20,30,40,50] 
+ 
+print(a) 
+print(b)
+print(c)
+19
+\\\\\\\\\
+tupla=("IFRO", [2023, 2024, 2025], "ADS")
+print(f'\nElementos da tupla: {tupla}') 
+print(f'\nA quantia de elementos da tupla é: {len(tupla)} \n') 
+print(input('Tecle <ENTER>')) 
+print(f'\n A um lele na list ala')
+print(f'\n Elementos da tupla:{tupla}')
+tupla[1].append(2026)
+print(f'\n the MOD:{tupla}\n')
+print(input('tome p@#$<ENTER>'))
+tupla[1][3] = False 
+print(f'\nTupla com valor False alterandoa posição 3 {tupla} \n')
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+20
+tupla=('fevereiro','março','abril','maio','janeiro','junho','julho','agosto','setembro','outubro','novembro','dezembro')
+print(f'\n A tupla tem: {len(tupla)} elementos')
+da1,da2,da3,da4,da5,da6,da7,da8,da9,da10,da11,da12=tupla
+  
+print(f'\n O mes do ano é: {da1}')
+print(f'\n O mes do ano é: {da2}')
+print(f'\n O mes do ano é: {da3}')
+print(f'\n O mes do ano é: {da4}')
+print(f'\n O mes do ano é: {da5}')
+print(f'\n O mes do ano é: {da6}')
+print(f'\n O mes do ano é: {da7}')
+print(f'\n O mes do ano é: {da8}')
+print(f'\n O mes do ano é: {da9}')
+print(f'\n O mes do ano é: {da10}')
+print(f'\n O mes do ano é: {da11}')
+print(f'\n O mes do ano é: {da12}')
+print('outubro' in tupla)
+''''
